@@ -18,7 +18,7 @@ This app uses a beta version of the Pusher library for Swift 3.2 based on the br
 - A free [Pusher](https://pusher.com) account
 
 # Installation
-1. Login to Pusher and [create an app](https://dashboard.pusher.com).
+1. Login to Pusher and [create an app](https://dashboard.pusher.com), with client events enabled (the option is in the _App Setting_ tab of the app).
 2. Clone this repository and `cd` into it.
 3. Open the workspace in Xcode 9.
 4. Make sure the version of Swift is 3.2 in the PusherSwift target so it can compile without errors. In the project navigator, select Pods, then in the Targets section select PusherSwift, and in the Build Settings tab look for the option Swift Language Version. Change it to Swift 3.2 if necessary.
