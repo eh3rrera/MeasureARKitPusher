@@ -12,8 +12,8 @@ This app uses a beta version of the Pusher library for Swift 3.2 based on the br
 
 # Requirements
 
-- Xcode 9 (Beta 2 or superior)
-- iOS 11
+- Xcode 9 (Beta 5 or superior)
+- iOS 11 beta 5 (or superior)
 - An iOS device with an A9 or better processor (iPhone 6s or superior, iPad Pro, iPad 2017)
 - A free [Pusher](https://pusher.com) account
 
