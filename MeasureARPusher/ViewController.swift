@@ -75,8 +75,6 @@ class ViewController: UIViewController, ARSCNViewDelegate {
                     description = "TRACKING LIMITED - Too much camera movement"
                 case .insufficientFeatures:
                     description = "TRACKING LIMITED - Not enough surface detail"
-                case .none:
-                    description = "TRACKING LIMITED"
                 case .initializing:
                     description = "INITIALIZING"
                 }
@@ -119,7 +117,7 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         super.viewWillAppear(animated)
         
         // Create a session configuration with plane detection
-        let configuration = ARWorldTrackingSessionConfiguration()
+        let configuration = ARWorldTrackingConfiguration()
         configuration.planeDetection = .horizontal
         
         // Run the view's session
