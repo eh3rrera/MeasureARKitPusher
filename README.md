@@ -1,5 +1,7 @@
 # MeasureARKitPusher
-Simple measure AR app made with ARKit. It sends the measures to Pusher so they can be consumed by other apps in realtime. Follow the tutorial at Pusher's blog (https://pusher.com/tutorials/realtime-measuring-arkit/).
+Simple measure AR app made with ARKit. It sends the measures to Pusher so they can be consumed by other apps in realtime.
+
+You can follow the [tutorial](https://pusher.com/tutorials/realtime-measuring-arkit/) to build this application or jump straight to the code.
 
 [![Measuring app with ARKit and Pusher - 1](https://img.youtube.com/vi/osby8WfvPQA/0.jpg)](http://www.youtube.com/watch?v=osby8WfvPQA)
 
